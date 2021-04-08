@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Context-Signup/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/Context-Signup/static/js/main.ea327b74.chunk.js",
+    "main.js.map": "/Context-Signup/static/js/main.ea327b74.chunk.js.map",
+    "runtime-main.js": "/Context-Signup/static/js/runtime-main.5b05a1bf.js",
+    "runtime-main.js.map": "/Context-Signup/static/js/runtime-main.5b05a1bf.js.map",
+    "static/js/2.6c054b4f.chunk.js": "/Context-Signup/static/js/2.6c054b4f.chunk.js",
+    "static/js/2.6c054b4f.chunk.js.map": "/Context-Signup/static/js/2.6c054b4f.chunk.js.map",
+    "index.html": "/Context-Signup/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/Context-Signup/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.6c054b4f.chunk.js.LICENSE.txt": "/Context-Signup/static/js/2.6c054b4f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5b05a1bf.js",
+    "static/js/2.6c054b4f.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.ea327b74.chunk.js"
+  ]
+}
