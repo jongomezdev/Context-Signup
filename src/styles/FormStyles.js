@@ -10,6 +10,20 @@ const styles = (theme) => ({
       marginRight: 'auto',
     },
   },
+  paper: {
+    marginTop: theme.spacing.unit * 8,
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+  },
+  avatar: {
+    margin: theme.spacing.unit,
+    backgroundColor: theme.palette.secondary.main,
+  },
+  form: {
+    width: '100%',
+    marginTop: theme.spacing.unit * 3,
+  },
 });
 
 export default styles;

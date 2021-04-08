@@ -20,8 +20,26 @@ class Form extends Component {
     const { classes } = this.props;
     return (
       <main className={classes.main}>
-        <Paper>
-          <h1>Form</h1>
+        <Paper className={classes.paper}>
+          <Avatar className={classes.avatar}>
+            <LockOutlinedIcon />
+          </Avatar>
+          <Typography variant="h5">Sign In</Typography>
+          <Select>
+            <MenuItem>English</MenuItem>
+            <MenuItem>French</MenuItem>
+            <MenuItem>Spanish</MenuItem>
+          </Select>
+          <form className={classes.form}>
+            <FormControl margin="normal" required fullWidth>
+              <InputLabel htmlFor="email">Email</InputLabel>
+              <Input id="email" name="email" autoFocus />
+            </FormControl>
+            <FormControl margin="normal" required fullWidth>
+              <InputLabel htmlFor="password">Password</InputLabel>
+              <Input id="password" name="password" autoFocus />
+            </FormControl>
+          </form>
         </Paper>
       </main>
     );
